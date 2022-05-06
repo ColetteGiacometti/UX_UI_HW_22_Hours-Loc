@@ -4,34 +4,37 @@
 
 /*header */
 .customNav {
-width: 100%;
-background-color: transparent !important;
-height: 60px;
-z-index: 10;
-}
-
-.navbar-nav {
-margin-left: auto;
-margin-right: 1% !important;
-}
-
-.nav-item {
-margin: 0px 15px;
-font-size: 100%;
-
-}
-.nav-link {
-color: black !important;
-font-family: 'Lato', sans-serif;
-}
-
-nav ul li:hover { 
-  background: #F7D26D; 
-  border-top-left-radius: 4%;
-  border-top-right-radius: 4%;
-  border-bottom-left-radius: 4%;
-  border-bottom-right-radius: 4%;
-}
+  width: 100%;
+  background-color: #0B0E13 !important;
+  height: 60px;
+  z-index: 10;
+  }
+  
+  .navbar-nav {
+  margin-left: auto;
+  margin-right: 1% !important;
+  }
+  
+  .nav-item {
+  margin: 0px 15px;
+  font-size: 100%;
+  
+  }
+  .nav-link {
+  color: white !important;
+  font-family: 'Lato', sans-serif;
+  }
+  .nav-link:hover {
+    color: black !important;
+    font-family: 'Lato', sans-serif;
+    }
+  nav ul li:hover { 
+    background: #F7D26D; 
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+  }
 
 p {
 margin-bottom: 0px;
@@ -43,6 +46,11 @@ font-size: 400%;
 padding-left: 10%;
 }
 
+h3 {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  }
+
 h4 {
 color: white;
 font-family: 'Josefin Slab', serif;
@@ -52,25 +60,25 @@ margin-bottom: 5%;
 padding-left: 10%;
 }
 
-.heroImg {
-  background-image: url("lakeview.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px; 
-  text-align: center;
+.row {
+  width:80%;
 }
-
 .container {
-  padding-bottom: 5%;
+  padding-bottom: 5%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card-text {
   font-family: 'Lato', sans-serif;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+.card {
+  border-radius: 15px;
+}
+.card-body{
+  border-radius: 15px;
+}
 
 a {
   text-decoration: none;
