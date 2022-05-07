@@ -101,6 +101,9 @@ color:black;
   justify-content: center;
 }
 
+.textFooter:hover {
+  font-weight: bold;
+}
 
 .middleRow {
   margin: 0 auto;
