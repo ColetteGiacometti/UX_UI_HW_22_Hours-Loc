@@ -40,9 +40,11 @@ p {
 margin-bottom: 0px;
 }
 h1 {
+padding-top: 5%;
+padding-bottom: 5%;
 color: white;
 font-family: 'Josefin Slab', serif;
-font-size: 400%;
+font-size: 300%;
 padding-left: 10%;
 }
 
